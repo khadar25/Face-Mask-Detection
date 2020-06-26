@@ -32,9 +32,9 @@ The images used were real images of faces wearing masks. The images were collect
 <br>$ python3 detect_mask_video.py 
 # Results
 * Our model gave 93% accuracy for Face Mask Detection after training via tensorflow-gpu==2.0.0
+# We got the following accuracy/loss training curve plot
+![We got the following accuracy/loss training curve plot](https://github.com/khadar25/Face-Mask-Detection/blob/master/plot.png)
 
-<img> https://github.com/khadar25/Face-Mask-Detection/blob/master/plot.png
-![Out_put image](https://github.com/khadar25/Face-Mask-Detection/blob/master/plot.png)
 
 
 
