@@ -19,6 +19,19 @@ This dataset consists of 3835 images belonging to two classes:
 
 The images used were real images of faces wearing masks. The images were collected from the following sources:
 
-Bing Search API (See Python script)
-Kaggle datasets
-RMFD dataset (See here)
+* Kaggle datasets
+
+# All the dependencies and required libraries are included in the file requirements.txt
+
+# Working
+* Open terminal. Go into the cloned project directory folder and type the following command:
+<br>$ python3 train_mask_detector.py --dataset dataset
+* Now detect the face masks in images
+<br>$ python3 detect_mask_image.py --image images/pic1.jpeg
+* Detection in real-time video streams
+<br>$ python3 detect_mask_video.py 
+# Results
+* Our model gave 93% accuracy for Face Mask Detection after training via tensorflow-gpu==2.0.0
+
+
+
